@@ -1,0 +1,46 @@
+{
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "debug": "^2.6.8",
+    "grunt": "~1.0.1",
+    "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-jshint": "~1.1.0",
+    "grunt-contrib-qunit": "~2.0.0",
+    "grunt-contrib-uglify": "~3.0.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-sass": "^2.0.0",
+    "less": "^2.7.2",
+    "mocha": "^3.4.2",
+    "pug": "^2.0.0-rc.2"
+  },
+  "name": "grunt_template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvodden/grunt_template.git"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "grunt",
+    "template"
+  ],
+  "author": "Bryan Vodden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bvodden/grunt_template/issues"
+  },
+  "homepage": "https://github.com/bvodden/grunt_template#readme",
+  "description": "",
+  "dependencies": {
+    "async": "^2.5.0",
+    "socket.io": "^2.0.3"
+  }
+}
